@@ -14,4 +14,6 @@
 **Allgemeine Ergänzungen:** [Hier können Sie weitere Informationen hinzufügen, z. B. Screenshots, Diagramme, usw.]
 
 **Labels:**
-Funktionale Anforderung, Qualitätsanforderung & Randanforderung
+Funktionale Anforderung,
+Qualitätsanforderung &
+Randanforderung
