@@ -14,4 +14,15 @@ Mit dem Push: Der Code wird vor dem Push automatisch getestet.
 
 
 ## Aufgabe 4
-Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
+Link zur Website: https://cvetkovskialeklb-324.azurewebsites.net/
+
+**Zuerst muss man das Azure-Portal öffnen.**
+**2. App Service-Anwendung navigieren.**
+**3. Zu den Einstellungen gehen und "Konfiguration" auswählen.**
+
+![image](https://github.com/cvetkovskiii/CvetkovskiAlekLB-324/assets/91133679/c9ba41b9-a913-47ae-ad48-b796f200f29a)
+
+**4. Die Umgebungsvariable `PASSWORD` mit dem entsprechenden Wert hinzufügen und die Änderungen speichern.**
+
+![image](https://github.com/cvetkovskiii/CvetkovskiAlekLB-324/assets/91133679/b9cfd80b-291e-433f-986e-16add0523fb2)
+
