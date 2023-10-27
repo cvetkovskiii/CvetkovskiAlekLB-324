@@ -1,4 +1,4 @@
-name: Run Tests on PR
+name: Run Tests on PR to dev
 
 on:
   pull_request:
@@ -6,20 +6,21 @@ on:
       - dev
 
 jobs:
-  test:
+  tests:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
-          node-version: '14'
+          python-version: 3.9.12
 
-      - name: Install Dependencies
-        run: npm install
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - name: Run Tests
-        run: npm test
+      - name: Run tests
+        run: |
+          python -m pytest
